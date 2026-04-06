@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Derek Wenning | Academic Website</title>
+  <meta name="description" content="Academic website for Derek Wenning, Assistant Professor of Finance at Indiana University Kelley School of Business." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#home">DW</a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">◐</button>
+    </header>
+
+    <main>
+      <section id="home" class="hero section">
+        <div class="hero-copy">
+          <p class="eyebrow">Finance • Insurance • Firm Dynamics • Urban Economics</p>
+          <h1>Derek Wenning</h1>
+          <p class="lede">
+            Assistant Professor of Finance at Indiana University's Kelley School of Business.
+            I study insurance markets, financial intermediation, firm dynamics, and urban economics.
+          </p>
+          <div class="cta-row">
+            <a class="button primary" href="assets/Derek_Wenning_CV.pdf">Download CV</a>
+            <a class="button secondary" href="#research">View Research</a>
+          </div>
+          <ul class="quick-links">
+            <li><a href="https://scholar.google.com" target="_blank" rel="noreferrer">Google Scholar</a></li>
+            <li><a href="mailto:dtwennin@iu.edu">dtwennin@iu.edu</a></li>
+            <li><a href="https://kelley.iu.edu" target="_blank" rel="noreferrer">Kelley School</a></li>
+          </ul>
+        </div>
+        <aside class="hero-card">
+          <div class="stat-grid">
+            <div class="stat-card">
+              <span class="stat-label">Position</span>
+              <strong>Assistant Professor</strong>
+            </div>
+            <div class="stat-card">
+              <span class="stat-label">Institution</span>
+              <strong>Indiana University</strong>
+            </div>
+            <div class="stat-card">
+              <span class="stat-label">PhD</span>
+              <strong>Princeton University</strong>
+            </div>
+            <div class="stat-card accent">
+              <span class="stat-label">Now Reading</span>
+              <strong>New working papers</strong>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section id="about" class="section split-section">
+        <div>
+          <p class="section-kicker">About</p>
+          <h2>A cleaner, more capable academic home base</h2>
+        </div>
+        <div class="card prose">
+          <p>
+            This GitHub Pages version is designed to preserve the professional tone of your current site while adding a more modern layout,
+            smoother navigation, publication cards, easy maintenance, and room for future features such as a teaching page, news updates,
+            downloadable slides, media coverage, or a blog.
+          </p>
+          <p>
+            Update the content by editing plain HTML in this starter version, or later migrate to Jekyll/Quarto if you want publication data,
+            news posts, and teaching materials to live in structured markdown files.
+          </p>
+        </div>
+      </section>
+
+      <section id="research" class="section">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">Research</p>
+            <h2>Working papers and projects</h2>
+          </div>
+          <div class="filter-row" role="tablist" aria-label="Publication filters">
+            <button class="filter-button active" data-filter="all">All</button>
+            <button class="filter-button" data-filter="paper">Working Papers</button>
+            <button class="filter-button" data-filter="wip">Works in Progress</button>
+          </div>
+        </div>
+
+        <div class="pub-grid">
+          <article class="pub-card" data-type="paper">
+            <span class="pub-tag">Working Paper</span>
+            <h3>Beyond the Storm: Climate Risk and Insurers of Last Resort</h3>
+            <p>with Ankit Kalda, Vikas Soni, and Varun Sharma</p>
+            <p class="muted">Latest update: November 2025</p>
+            <div class="pub-links">
+              <a href="#">Paper</a>
+              <a href="#">SSRN</a>
+            </div>
+          </article>
+
+          <article class="pub-card" data-type="paper">
+            <span class="pub-tag">Working Paper</span>
+            <h3>Priced Out: Rent Control, Wages, and Inequality</h3>
+            <p>with Isaac Hacamo, Geraldo Cerqueiro, and Pedro Raposo</p>
+            <p class="muted">Revise and resubmit, American Economic Journal: Economic Policy</p>
+            <div class="pub-links">
+              <a href="#">Paper</a>
+              <a href="#">SSRN</a>
+            </div>
+          </article>
+
+          <article class="pub-card" data-type="paper">
+            <span class="pub-tag">Working Paper</span>
+            <h3>From Long to Short: How Interest Rates Shape Life Insurance Markets</h3>
+            <p>with Ziang Li</p>
+            <p class="muted">Latest update: November 2025</p>
+            <div class="pub-links">
+              <a href="#">Paper</a>
+              <a href="#">SSRN</a>
+            </div>
+          </article>
+
+          <article class="pub-card" data-type="paper">
+            <span class="pub-tag">Working Paper</span>
+            <h3>Banks in Space</h3>
+            <p>with Ezra Oberfield, Esteban Rossi-Hansberg, and Nicholas Trachter</p>
+            <p class="muted">Revise and resubmit, American Economic Review</p>
+            <div class="pub-links">
+              <a href="#">Paper</a>
+              <a href="#">SSRN</a>
+            </div>
+          </article>
+
+          <article class="pub-card" data-type="paper">
+            <span class="pub-tag">Working Paper</span>
+            <h3>National Pricing and the Geography of U.S. Life Insurers</h3>
+            <p>Solo project</p>
+            <p class="muted">Latest update: November 2024</p>
+            <div class="pub-links">
+              <a href="#">SSRN</a>
+            </div>
+          </article>
+
+          <article class="pub-card" data-type="wip">
+            <span class="pub-tag alt">Work in Progress</span>
+            <h3>Bundling in Insurance Markets</h3>
+            <p>with Eduard Boehm and Bretchen Hoskins</p>
+            <p class="muted">An exploration of insurance market structure using near-universe holdings data in Chile.</p>
+          </article>
+
+          <article class="pub-card" data-type="wip">
+            <span class="pub-tag alt">Work in Progress</span>
+            <h3>Growing by Grafting</h3>
+            <p>with Ezra Oberfield, Esteban Rossi-Hansberg, Nicholas Trachter, and Chen Yeh</p>
+            <p class="muted">A theory of assortative reallocation of heterogeneous establishments across firms.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="teaching" class="section split-section">
+        <div>
+          <p class="section-kicker">Teaching</p>
+          <h2>Ready for course pages</h2>
+        </div>
+        <div class="card prose">
+          <p>
+            Add syllabi, lecture slides, office hours, problem sets, and course announcements here.
+            GitHub Pages makes it much easier to organize downloadable files than Google Sites.
+          </p>
+          <p>
+            Recommended structure: one page per course, with folders for slides, notes, and assignments.
+          </p>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="contact-card">
+          <div>
+            <p class="section-kicker">Contact</p>
+            <h2>Get in touch</h2>
+            <p class="muted contact-copy">
+              Replace this block with office location, mailing address, or a short contact note.
+            </p>
+          </div>
+          <div class="contact-actions">
+            <a class="button primary" href="mailto:dtwennin@iu.edu">Email Derek</a>
+            <a class="button secondary" href="https://scholar.google.com" target="_blank" rel="noreferrer">Scholar Profile</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Derek Wenning. Built for GitHub Pages.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
