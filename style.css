@@ -313,3 +313,40 @@ p { line-height: 1.7; }
   object-fit: cover;
   border-radius: var(--radius);
 }
+
+.abstract-dropdown {
+  margin-top: 0.9rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 0.9rem;
+}
+
+.abstract-dropdown summary {
+  cursor: pointer;
+  list-style: none;
+  font-weight: 600;
+  color: var(--accent);
+  transition: opacity 0.2s ease;
+}
+
+.abstract-dropdown summary:hover {
+  opacity: 0.8;
+}
+
+.abstract-dropdown summary::-webkit-details-marker {
+  display: none;
+}
+
+.abstract-dropdown summary::after {
+  content: " +";
+  font-weight: 400;
+}
+
+.abstract-dropdown[open] summary::after {
+  content: " −";
+}
+
+.abstract-dropdown p {
+  margin-top: 0.75rem;
+  color: var(--muted);
+  line-height: 1.7;
+}
