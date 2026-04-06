@@ -1,0 +1,27 @@
+const yearEl = document.getElementById('year');
+if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+const themeToggle = document.getElementById('themeToggle');
+const savedTheme = localStorage.getItem('dw-theme');
+if (savedTheme === 'dark') document.body.classList.add('dark');
+
+themeToggle?.addEventListener('click', () => {
+  document.body.classList.toggle('dark');
+  localStorage.setItem('dw-theme', document.body.classList.contains('dark') ? 'dark' : 'light');
+});
+
+const filterButtons = document.querySelectorAll('.filter-button');
+const pubCards = document.querySelectorAll('.pub-card');
+
+filterButtons.forEach((button) => {
+  button.addEventListener('click', () => {
+    filterButtons.forEach((btn) => btn.classList.remove('active'));
+    button.classList.add('active');
+    const filter = button.dataset.filter;
+
+    pubCards.forEach((card) => {
+      const show = filter === 'all' || card.dataset.type === filter;
+      card.classList.toggle('hidden', !show);
+    });
+  });
+});
