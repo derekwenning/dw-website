@@ -211,18 +211,20 @@ p { line-height: 1.7; }
 .prose p:first-child { margin-top: 0; }
 .muted { color: var(--muted); }
 
-/* .pub-grid {
+.pub-grid {
   margin-top: 1.5rem;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1.2rem;
+  align-items: start;
 }
 
 .pub-card {
   padding: 1.25rem;
   background: linear-gradient(180deg, var(--surface), var(--surface-strong));
-} */
-
+  align-self: start;
+}
+/* 
 .pub-grid {
   column-count: 2;
   column-gap: 1.5rem;
@@ -230,10 +232,11 @@ p { line-height: 1.7; }
 
 .pub-card {
   display: inline-block;
+  padding: 1.25rem;
   width: 100%;
   margin: 0 0 1.5rem;
   break-inside: avoid;
-}
+} */
 
 .pub-card h3 {
   margin: 0.55rem 0 0.5rem;
