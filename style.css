@@ -215,13 +215,14 @@ p { line-height: 1.7; }
   margin-top: 1.5rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 1.2rem;
 }
 
 .pub-card {
   padding: 1.5rem 1.75rem;
   width: 100%;
-  max-width: 900px;
+  max-width: 1000px;
   background: linear-gradient(180deg, var(--surface), var(--surface-strong));
 }
 /* 
