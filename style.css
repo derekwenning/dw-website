@@ -222,7 +222,7 @@ p { line-height: 1.7; }
 .pub-card {
   padding: 1.5rem 1.75rem;
   width: 100%;
-  max-width: 1000px;
+  /* max-width: 1000px; */
   background: linear-gradient(180deg, var(--surface), var(--surface-strong));
 }
 /* 
