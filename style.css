@@ -364,7 +364,6 @@ p { line-height: 1.7; }
 }
 
 .abstract-panel.open {
-  max-height: 300px;
   opacity: 1;
 }
 
