@@ -211,7 +211,7 @@ p { line-height: 1.7; }
 .prose p:first-child { margin-top: 0; }
 .muted { color: var(--muted); }
 
-.pub-grid {
+/* .pub-grid {
   margin-top: 1.5rem;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -221,6 +221,18 @@ p { line-height: 1.7; }
 .pub-card {
   padding: 1.25rem;
   background: linear-gradient(180deg, var(--surface), var(--surface-strong));
+} */
+
+.pub-grid {
+  column-count: 2;
+  column-gap: 1.5rem;
+}
+
+.pub-card {
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 1.5rem;
+  break-inside: avoid;
 }
 
 .pub-card h3 {
@@ -241,24 +253,6 @@ p { line-height: 1.7; }
 .pub-tag.alt {
   background: rgba(79, 98, 148, 0.12);
   color: #445d8f;
-}
-
-.paper-grid {
-  column-count: 2;
-  column-gap: 1.5rem;
-}
-
-.paper-card {
-  display: inline-block;
-  width: 100%;
-  margin: 0 0 1.5rem;
-  break-inside: avoid;
-}
-
-@media (max-width: 900px) {
-  .paper-grid {
-    column-count: 1;
-  }
 }
 
 .filter-button.active {
