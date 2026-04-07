@@ -213,16 +213,16 @@ p { line-height: 1.7; }
 
 .pub-grid {
   margin-top: 1.5rem;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  display: flex;
+  flex-direction: column;
   gap: 1.2rem;
-  align-items: start;
 }
 
 .pub-card {
-  padding: 1.25rem;
+  padding: 1.5rem 1.75rem;
+  width: 100%;
+  max-width: 900px;
   background: linear-gradient(180deg, var(--surface), var(--surface-strong));
-  align-self: start;
 }
 /* 
 .pub-grid {
