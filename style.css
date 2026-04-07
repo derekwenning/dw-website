@@ -372,3 +372,12 @@ p { line-height: 1.7; }
   line-height: 1.7;
   color: var(--muted);
 }
+
+.abstract-toggle::after {
+  content: " +";
+  font-weight: 400;
+}
+
+.abstract-toggle[aria-expanded="true"]::after {
+  content: " −";
+}
