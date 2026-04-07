@@ -243,6 +243,24 @@ p { line-height: 1.7; }
   color: #445d8f;
 }
 
+.paper-grid {
+  column-count: 2;
+  column-gap: 1.5rem;
+}
+
+.paper-card {
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 1.5rem;
+  break-inside: avoid;
+}
+
+@media (max-width: 900px) {
+  .paper-grid {
+    column-count: 1;
+  }
+}
+
 .filter-button.active {
   background: var(--accent);
   color: white;
