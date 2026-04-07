@@ -25,3 +25,25 @@ filterButtons.forEach((button) => {
     });
   });
 });
+
+document.querySelectorAll(".abstract-toggle").forEach((button) => {
+  button.addEventListener("click", () => {
+    const panel = button.parentElement.nextElementSibling;
+    const isOpen = panel.classList.contains("open");
+
+    if (isOpen) {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+      requestAnimationFrame(() => {
+        panel.style.maxHeight = "0px";
+        panel.style.opacity = "0";
+      });
+      panel.classList.remove("open");
+      button.setAttribute("aria-expanded", "false");
+    } else {
+      panel.classList.add("open");
+      panel.style.maxHeight = panel.scrollHeight + "px";
+      panel.style.opacity = "1";
+      button.setAttribute("aria-expanded", "true");
+    }
+  });
+});
