@@ -31,12 +31,19 @@ document.querySelectorAll(".abstract-toggle").forEach((button) => {
     const panel = button.parentElement.nextElementSibling;
     const isOpen = panel.classList.contains("open");
 
+    document.querySelectorAll(".abstract-panel.open").forEach((openPanel) => {
+      if (openPanel !== panel) {
+        openPanel.style.maxHeight = "0px";
+        openPanel.style.opacity = "0";
+        openPanel.classList.remove("open");
+        const otherButton = openPanel.previousElementSibling.querySelector(".abstract-toggle");
+        if (otherButton) otherButton.setAttribute("aria-expanded", "false");
+      }
+    });
+
     if (isOpen) {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-      requestAnimationFrame(() => {
-        panel.style.maxHeight = "0px";
-        panel.style.opacity = "0";
-      });
+      panel.style.maxHeight = "0px";
+      panel.style.opacity = "0";
       panel.classList.remove("open");
       button.setAttribute("aria-expanded", "false");
     } else {
