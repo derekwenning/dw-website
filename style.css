@@ -356,9 +356,8 @@ p { line-height: 1.7; }
 }
 
 .abstract-panel {
-  margin-top: 0.85rem;
-  overflow: hidden;
   max-height: 0;
+  overflow: hidden;
   opacity: 0;
   transition: max-height 0.3s ease, opacity 0.25s ease;
 }
@@ -368,7 +367,8 @@ p { line-height: 1.7; }
 }
 
 .abstract-panel p {
-  margin: 0;
+  margin-top: 0.85rem;
+  margin-bottom: 0;
   line-height: 1.7;
   color: var(--muted);
 }
