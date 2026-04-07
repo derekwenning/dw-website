@@ -41,8 +41,8 @@ document.querySelectorAll(".abstract-toggle").forEach((button) => {
       button.setAttribute("aria-expanded", "false");
     } else {
       panel.classList.add("open");
-      panel.style.maxHeight = panel.scrollHeight + "px";
       panel.style.opacity = "1";
+      panel.style.maxHeight = panel.scrollHeight + "px";
       button.setAttribute("aria-expanded", "true");
     }
   });
