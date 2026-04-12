@@ -10,18 +10,39 @@ themeToggle?.addEventListener('click', () => {
   localStorage.setItem('dw-theme', document.body.classList.contains('dark') ? 'dark' : 'light');
 });
 
-const filterButtons = document.querySelectorAll('.filter-button');
-const pubCards = document.querySelectorAll('.pub-card');
+// const filterButtons = document.querySelectorAll('.filter-button');
+// const pubCards = document.querySelectorAll('.pub-card');
+
+// filterButtons.forEach((button) => {
+//   button.addEventListener('click', () => {
+//     filterButtons.forEach((btn) => btn.classList.remove('active'));
+//     button.classList.add('active');
+//     const filter = button.dataset.filter;
+
+//     pubCards.forEach((card) => {
+//       const show = filter === 'all' || card.dataset.type === filter;
+//       card.classList.toggle('hidden', !show);
+//     });
+//   });
+// });
+
+const filterButtons = document.querySelectorAll(".filter-btn");
+const publicationCards = document.querySelectorAll(".pub-card");
 
 filterButtons.forEach((button) => {
-  button.addEventListener('click', () => {
-    filterButtons.forEach((btn) => btn.classList.remove('active'));
-    button.classList.add('active');
-    const filter = button.dataset.filter;
+  button.addEventListener("click", () => {
+    const selectedFilter = button.dataset.filter;
 
-    pubCards.forEach((card) => {
-      const show = filter === 'all' || card.dataset.type === filter;
-      card.classList.toggle('hidden', !show);
+    filterButtons.forEach((btn) => btn.classList.remove("active"));
+    button.classList.add("active");
+
+    publicationCards.forEach((card) => {
+      const types = card.dataset.types ? card.dataset.types.split(" ") : [];
+
+      const matches =
+        selectedFilter === "all" || types.includes(selectedFilter);
+
+      card.style.display = matches ? "" : "none";
     });
   });
 });
