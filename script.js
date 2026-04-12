@@ -26,7 +26,7 @@ themeToggle?.addEventListener('click', () => {
 //   });
 // });
 
-const filterButtons = document.querySelectorAll(".filter-btn");
+const filterButtons = document.querySelectorAll(".filter-button");
 const publicationCards = document.querySelectorAll(".pub-card");
 
 filterButtons.forEach((button) => {
