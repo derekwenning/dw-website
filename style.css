@@ -124,7 +124,13 @@ p { line-height: 1.7; }
   font-size: 1.08rem;
 }
 
-.cta-row, .contact-actions, .pub-links, .quick-links, .filter-row {
+.filter-row {
+  display: flex;
+  gap: 0.9rem;
+  justify-content: flex-end;
+}
+
+.cta-row, .contact-actions, .pub-links, .quick-links {
   display: flex;
   gap: 0.9rem;
   flex-wrap: wrap;
