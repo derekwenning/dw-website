@@ -1,5 +1,5 @@
 :root {
-  --bg: #f7f6f4;
+  --bg: #ffffff; /* #f7f6f4; */
   --surface: rgba(255,255,255,0.78);
   --surface-strong: #ffffff;
   --text: #1e1f24;
