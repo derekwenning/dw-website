@@ -13,7 +13,7 @@
 }
 
 body.dark {
-  --bg: #0e1014;
+  --bg: #ffffff; /* #0e1014; */
   --surface: rgba(18, 21, 28, 0.85);
   --surface-strong: #161a22;
   --text: #f5f7fb;
