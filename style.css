@@ -137,7 +137,7 @@ p { line-height: 1.7; }
 }
 
 .button, .filter-button {
-  border-radius: 0px;
+  border-radius: 500px;
   padding: 0.88rem 1.2rem;
   font-weight: 700;
   transition: 180ms ease;
@@ -257,13 +257,14 @@ p { line-height: 1.7; }
   background: white;
   color: #8C1A11;
   border-color: #8C1A11;
+  border-style: solid;
   font-size: 0.75rem;
   font-weight: 800;
 }
 
 .pub-tag.fdynamics {
-  color: #0014a8,
-  border-color: #0014a8;
+  color: #0014A8,
+  border-color: #0014A8;
 }
 
 .pub-tag.urban {
@@ -271,7 +272,7 @@ p { line-height: 1.7; }
   border-color: #FFBF00;
 }
 
-.pub-tag.alt.banking {
+.pub-tag.banking {
   color: #718C99;
   border-color: #718C99;
 }
