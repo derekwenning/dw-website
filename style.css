@@ -165,8 +165,8 @@ p { line-height: 1.7; }
 
 .card, .pub-card, .contact-card {
   background: white;
-  border: 1px solid black;
-  border-radius: var(--radius);
+  /* border: 1px solid black; */
+  /* border-radius: var(--radius); */
   /* box-shadow: var(--shadow); */
 }
 
