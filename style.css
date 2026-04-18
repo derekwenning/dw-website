@@ -96,7 +96,7 @@ p { line-height: 1.7; }
 .hero {
   min-height: 68vh;
   display: grid;
-  grid-template-columns: 1.3fr 0.9fr;
+  grid-template-columns: 1fr max-content;
   gap: 2rem;
   align-items: center;
 }
