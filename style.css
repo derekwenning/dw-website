@@ -137,17 +137,17 @@ p { line-height: 1.7; }
 }
 
 .button, .filter-button {
-  border-radius: 500px;
+  border-radius: 100px;
   padding: 0.88rem 1.2rem;
   font-weight: 700;
   transition: 180ms ease;
-  border: 1px solid var(--border);
+  border: solid var(--border);
 }
 
 .button.primary {
-  background: black; /* var(--accent);*/
-  color: white;
-  border-color: transparent;
+  background: white; /* var(--accent);*/
+  color: black;
+  border-color: black;
 }
 
 .button.secondary, .filter-button {
@@ -263,7 +263,7 @@ p { line-height: 1.7; }
 }
 
 .pub-tag.fdynamics {
-  color: #0014A8,
+  color: #0014A8;
   border-color: #0014A8;
 }
 
@@ -278,9 +278,10 @@ p { line-height: 1.7; }
 }
 
 .filter-button.active {
-  background: black;
-  color: white;
-  border-color: transparent;
+  background: white;
+  color: black;
+  border-color: black;
+  /* border-color: transparent; */
 }
 
 .contact-card {
