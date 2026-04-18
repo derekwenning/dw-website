@@ -337,14 +337,14 @@ p { line-height: 1.7; }
 }
 
 .hero-image-card {
-  padding: 0;
+  padding: 0.5rem;
   overflow: hidden;
 }
 
 .hero-image {
   /* display: block; */
-  width: 100%; /* 260px; */
-  height: 100%;
+  width: 50%; /* 260px; */
+  height: 50%;
   /* min-height: 210px; */
   object-fit: cover;
   /* border-radius: var(--radius); */
