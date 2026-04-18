@@ -164,10 +164,10 @@ p { line-height: 1.7; }
 }
 
 .card, .pub-card, .contact-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
+  background: white;
+  border: 1px solid black;
   border-radius: var(--radius);
-  box-shadow: var(--shadow);
+  /* box-shadow: var(--shadow); */
 }
 
 .hero-card {
