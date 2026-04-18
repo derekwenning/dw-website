@@ -214,6 +214,10 @@ p { line-height: 1.7; }
   align-items: start;
 }
 
+.section-head h2 {
+  font-size: large;
+}
+
 .card, .contact-card { padding: 1.5rem; }
 .prose p:first-child { margin-top: 0; }
 .muted { color: var(--muted); }
