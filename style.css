@@ -171,7 +171,11 @@ p { line-height: 1.7; }
 }
 
 .hero-card {
-  border: 3px solid var(--accent);
+  display: inline-block;
+  justify-self: start;
+  border: 4px solid #9f0f05;
+  border-radius: 1.25rem;
+  overflow: hidden;
 }
 
 /* .hero-card { padding: 1rem; } */
