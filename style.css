@@ -94,9 +94,9 @@ p { line-height: 1.7; }
 }
 
 .hero {
-  min-height: 68vh;
+  /* min-height: 68vh; */
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: auto 1fr;
   gap: 2rem;
   align-items: center;
 }
@@ -342,14 +342,17 @@ p { line-height: 1.7; }
 }
 
 .hero-image-card {
-  padding: 0.5rem;
+  display: inline-block;
+  justify-self: start;
+  border: 4px solid var(--accent);
+  border-radius: var(--radius);
   overflow: hidden;
 }
 
 .hero-image {
   display: block;
   width: 80%; /* 260px; */
-  height: 80%;
+  height: auto;
   /* min-height: 210px; */
   object-fit: cover;
   border-radius: var(--radius);
