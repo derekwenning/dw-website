@@ -254,15 +254,26 @@ p { line-height: 1.7; }
   display: inline-block;
   padding: 0.35rem 0.65rem;
   border-radius: 999px;
-  background: var(--accent-soft);
-  color: var(--accent);
+  background: white;
+  color: #8C1A11;
+  border-color: #8C1A11;
   font-size: 0.75rem;
   font-weight: 800;
 }
 
-.pub-tag.alt {
-  background: rgba(79, 98, 148, 0.12);
-  color: #445d8f;
+.pub-tag.fdynamics {
+  color: #0014a8,
+  border-color: #0014a8;
+}
+
+.pub-tag.urban {
+  color: #FFBF00;
+  border-color: #FFBF00;
+}
+
+.pub-tag.alt.banking {
+  color: #718C99;
+  border-color: #718C99;
 }
 
 .filter-button.active {
