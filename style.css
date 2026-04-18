@@ -343,8 +343,8 @@ p { line-height: 1.7; }
 
 .hero-image {
   /* display: block; */
-  width: auto; /* 260px; */
-  height: auto;
+  width: 100%; /* 260px; */
+  height: 100%;
   /* min-height: 210px; */
   object-fit: cover;
   /* border-radius: var(--radius); */
