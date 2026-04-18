@@ -355,11 +355,11 @@ p { line-height: 1.7; }
 
 .hero-image {
   display: block;
-  width: 80%; /* 260px; */
+  width: 50%; /* 260px; */
   height: auto;
   /* min-height: 210px; */
-  object-fit: cover;
-  border-radius: var(--radius);
+  /* object-fit: cover;
+  border-radius: var(--radius); */
 }
 
 .pub-links {
