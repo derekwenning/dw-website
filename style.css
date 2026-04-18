@@ -163,14 +163,18 @@ p { line-height: 1.7; }
   font-weight: 600;
 }
 
-.hero-card, .card, .pub-card, .contact-card {
+.card, .pub-card, .contact-card {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
 }
 
-.hero-card { padding: 1rem; }
+.hero-card {
+  border: solid var(--accent);
+}
+
+/* .hero-card { padding: 1rem; } */
 
 .stat-grid {
   display: grid;
