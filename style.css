@@ -96,7 +96,7 @@ p { line-height: 1.7; }
 .hero {
   min-height: 68vh;
   display: grid;
-  grid-template-columns: 1fr max-content;
+  grid-template-columns: 1fr auto;
   gap: 2rem;
   align-items: center;
 }
@@ -171,7 +171,7 @@ p { line-height: 1.7; }
 }
 
 .hero-card {
-  border: solid var(--accent);
+  border: 3px solid var(--accent);
 }
 
 /* .hero-card { padding: 1rem; } */
