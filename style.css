@@ -10,6 +10,7 @@
   --accent-2: #6f0012;
   --shadow: 0 20px 60px rgba(25, 25, 35, 0.08);
   --radius: 22px;
+  --hero-image-width: 280px;
 }
 
 body.dark {
@@ -355,7 +356,7 @@ p { line-height: 1.7; }
 
 .hero-image {
   display: block;
-  width: 50%; /* 260px; */
+  width: var(--hero-image-width); /* 260px; */
   height: auto;
   /* min-height: 210px; */
   /* object-fit: cover;
