@@ -428,3 +428,14 @@ p { line-height: 1.7; }
   width: 100%;               /* Adjust width */
   margin: 20px auto;        /* Center it with spacing */
 }
+
+@media (max-width: 900px) {
+  .hero-inner {
+    grid-template-columns: 1fr;
+    text-align: left;
+  }
+
+  .hero-media {
+    justify-self: center;
+  }
+}
