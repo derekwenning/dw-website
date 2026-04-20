@@ -95,7 +95,7 @@ p { line-height: 1.7; }
 }
 
 .hero {
-  padding: 4rem 1.5rem;   /* vertical + horizontal breathing room */
+  padding: 6rem 4rem;   /* vertical + horizontal breathing room */
 }
 
 .hero-inner {
