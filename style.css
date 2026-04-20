@@ -232,9 +232,9 @@ p { line-height: 1.7; }
 
 .custom-line-subhead {
   border: none;             /* Remove default border */
-  height: 2px;              /* Set thickness */
-  background-color: gray;   /* Set color */
-  width: 50%;               /* Adjust width */
+  height: 1.5px;              /* Set thickness */
+  background-color: #DCDCDC;   /* Set color */
+  width: 30%;               /* Adjust width */
   margin: 20px auto;        /* Center it with spacing */
 }
 
@@ -257,7 +257,7 @@ p { line-height: 1.7; }
 
 .pub-card {
   padding: 0.5rem 0.75rem;
-  width: 100%;
+  width: 80%;
   /* max-width: 1000px; */
   background: linear-gradient(180deg, var(--surface), var(--surface-strong));
 }
