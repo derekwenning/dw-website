@@ -231,6 +231,11 @@ p { line-height: 1.7; }
   margin-bottom: 0;
 }
 
+.section-head h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+
 .card, .contact-card { padding: 1.5rem; }
 .prose p:first-child { margin-top: 0; }
 .muted { color: var(--muted); }
