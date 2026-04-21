@@ -127,8 +127,8 @@ p { line-height: 1.7; }
   max-width: 58ch;
   color: var(--muted);
   font-size: 1.08rem;
-  margin: 0.5rem 4rem 0.5rem 4rem;
-  /* padding: 1rem; */
+  margin: 0.5rem 0rem 0.5rem 0rem;
+  padding: 1rem;
   text-align: justify;
   text-align-last: left;
 }
