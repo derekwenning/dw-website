@@ -235,7 +235,8 @@ p { line-height: 1.7; }
 .section-head h2 {
   font-size: clamp(5rem, 8vw, 8rem);
   line-height: 0.95;
-  margin: 0.2rem 0 1rem 1rem;
+  /* margin: 0.2rem 0 1rem 1rem; */
+  margin-bottom: 0;
   padding: 1.5rem;
 }
 
@@ -249,11 +250,6 @@ p { line-height: 1.7; }
   background-color: #DCDCDC;   /* Set color */
   width: 30%;               /* Adjust width */
   margin: 20px auto;        /* Center it with spacing */
-}
-
-.section-head h2 {
-  font-size: xx-large;
-  margin-bottom: 0;
 }
 
 .card, .contact-card { padding: 1.5rem; }
