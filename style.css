@@ -236,6 +236,7 @@ p { line-height: 1.7; }
   font-size: clamp(2rem, 12vw, 3rem);
   line-height: 0.95;
   margin: 0.2rem 0 1rem 1rem;
+  padding: 1.5rem;
 }
 
 .section-subhead {
