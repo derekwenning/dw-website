@@ -133,7 +133,7 @@ p { line-height: 1.7; }
 .filter-row {
   display: flex;
   gap: 0.9rem;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .cta-row, .contact-actions, .pub-links, .quick-links {
@@ -225,11 +225,14 @@ p { line-height: 1.7; }
 .stat-card.accent .stat-label { color: rgba(255,255,255,0.8); }
 
 .split-section, .section-head {
-  display: grid;
-  grid-template-columns: 0.7fr 1.3fr;
-  gap: 1.5rem;
-  align-items: start;
+  /* display: grid; */
+  /* grid-template-columns: 0.7fr 1.3fr; */
+  /* gap: 1.5rem; */
+  /* align-items: start; */
+  text-align: center;
 }
+
+.
 
 .section-subhead {
   text-align: center;
@@ -444,7 +447,7 @@ p { line-height: 1.7; }
   border: none;             /* Remove default border */
   height: 2px;              /* Set thickness */
   background-color: black;   /* Set color */
-  width: 100%;               /* Adjust width */
+  width: 60%;               /* Adjust width */
   margin: 20px auto;        /* Center it with spacing */
 }
 
