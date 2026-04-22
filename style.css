@@ -275,6 +275,12 @@ p { line-height: 1.7; }
   /* background: linear-gradient(180deg, var(--surface), var(--surface-strong)); */
   background: white;
 }
+
+.pub-card p {
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+
 /* 
 .pub-grid {
   column-count: 2;
