@@ -258,6 +258,7 @@ p { line-height: 1.7; }
 .card, .contact-card { padding: 1.5rem; }
 .prose p:first-child { margin-top: 0; }
 .muted { color: var(--muted); }
+.muted-pub { color: var(--muted); font-style: italic; }
 
 .pub-grid {
   margin-top: 1.5rem;
