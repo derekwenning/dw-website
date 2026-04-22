@@ -463,6 +463,14 @@ p { line-height: 1.7; }
   margin: 20px auto;        /* Center it with spacing */
 }
 
+.main-line {
+  border: none;             /* Remove default border */
+  height: 4px;              /* Set thickness */
+  background-color: black;   /* Set color */
+  width: 100%;               /* Adjust width */
+  margin: 60px auto;        /* Center it with spacing */
+}
+
 @media (max-width: 900px) {
   .hero-inner {
     grid-template-columns: 1fr;
