@@ -468,7 +468,7 @@ p { line-height: 1.7; }
   height: 1.5px;              /* Set thickness */
   background-color: #DCDCDC;   /* Set color */
   width: 100%;               /* Adjust width */
-  margin: 40px auto;        /* Center it with spacing */
+  margin: 20px auto;        /* Center it with spacing */
 }
 
 @media (max-width: 900px) {
