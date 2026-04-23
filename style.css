@@ -465,10 +465,10 @@ p { line-height: 1.7; }
 
 .main-line {
   border: none;             /* Remove default border */
-  height: 4px;              /* Set thickness */
-  background-color: black;   /* Set color */
+  height: 1.5px;              /* Set thickness */
+  background-color: #DCDCDC;   /* Set color */
   width: 100%;               /* Adjust width */
-  margin: 60px auto;        /* Center it with spacing */
+  margin: 40px auto;        /* Center it with spacing */
 }
 
 @media (max-width: 900px) {
