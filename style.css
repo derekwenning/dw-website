@@ -365,6 +365,10 @@ p { line-height: 1.7; }
     grid-template-columns: 1fr;
   }
 
+  .pub-card {
+    width: 90%;
+  }
+
   .topbar {
     border-radius: 24px;
     padding: 1rem;
