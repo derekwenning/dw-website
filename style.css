@@ -369,6 +369,11 @@ p { line-height: 1.7; }
     width: 90%;
   }
 
+  .lede {
+    width: 90%;
+  }
+    
+
   .topbar {
     border-radius: 24px;
     padding: 1rem;
