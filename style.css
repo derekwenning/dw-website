@@ -490,3 +490,105 @@ p { line-height: 1.7; }
     justify-self: center;
   }
 }
+
+@media (max-width: 900px) {
+  .site-shell {
+    width: min(100% - 1.25rem, 1160px);
+  }
+
+  .hero {
+    padding: 2.75rem 0 2rem;
+  }
+
+  .hero-inner {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    justify-items: center;
+    text-align: center;
+  }
+
+  .hero-image-card {
+    justify-self: center;
+  }
+
+  .hero-image {
+    width: min(72vw, 280px);
+  }
+
+  .hero-copy {
+    width: 100%;
+  }
+
+  .hero h1 {
+    font-size: clamp(2.6rem, 15vw, 4rem);
+    margin-bottom: 0.75rem;
+  }
+
+  .lede {
+    width: 100%;
+    max-width: 36rem;
+    margin: 0 auto 1.25rem;
+    padding: 0;
+    text-align: center;
+    text-align-last: center;
+    font-size: 1rem;
+  }
+
+  .cta-row {
+    justify-content: center;
+    gap: 0.65rem;
+  }
+
+  .button,
+  .filter-button {
+    padding: 0.72rem 1rem;
+  }
+
+  .section-head h2 {
+    padding: 1rem 0 0.75rem;
+  }
+
+  .filter-row {
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    justify-content: center;
+  }
+
+  .pub-grid {
+    gap: 1.35rem;
+    margin-top: 1rem;
+  }
+
+  .pub-card {
+    width: 100%;
+    padding: 0.5rem 0.25rem;
+  }
+
+  .custom-line,
+  .main-line {
+    margin: 1rem auto;
+  }
+}
+
+@media (max-width: 520px) {
+  .hero {
+    padding-top: 2rem;
+  }
+
+  .hero-image {
+    width: min(78vw, 240px);
+  }
+
+  .cta-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .button {
+    text-align: center;
+  }
+
+  .pub-links {
+    gap: 0.75rem;
+  }
+}
